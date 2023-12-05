@@ -6,4 +6,5 @@ import Reviews from "./Reviews/index";
 import Video from "./Video";
 import Publications from "./Publications";
 import Team from './Team'
-export{Navbar,Banner,Services,Clients,Reviews,Video,Publications,Team}
+import MailSub from "./MailSub";
+export{Navbar,Banner,Services,Clients,Reviews,Video,Publications,Team, MailSub}

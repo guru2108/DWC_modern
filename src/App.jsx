@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import {Navbar,Banner,Services, Clients, Reviews, Video,Publications,Team} from './components/exports'
+import {Navbar,Banner,Services, Clients, Reviews, Video,Publications,Team, MailSub} from './components/exports'
 import ScrollToTop from 'react-scroll-up'
 import { FaArrowCircleUp } from "react-icons/fa";
 function App() {
@@ -18,6 +18,7 @@ function App() {
      <Clients/>
      <Team/>
      <Reviews/>
+     <MailSub/>
     </div>
   )
 }

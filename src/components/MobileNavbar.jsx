@@ -37,7 +37,7 @@ const MobileNavbar = () => {
         <button className="border-[#EA3A60] 
         border-[2px] font-medium text-[16px] rounded-2xl text-[#EA3A60] 
         w-[150px] h-[70px] hover:bg-[#EA3A60] hover:text-white hover:border-0">
-          Contact Us
+          Contact us
         </button>
                 </div>
             </Drawer>

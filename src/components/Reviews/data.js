@@ -2,38 +2,29 @@ const people = [
     {
       id: 1,
       image:
-        'https://res.cloudinary.com/diqqf3eq2/image/upload/v1595959131/person-2_ipcjws.jpg',
-      name: 'maria ferguson',
-      title: 'office manager',
+        'https://www.svgrepo.com/show/384674/account-avatar-profile-user-11.svg',
+      name: 'client',
+      title: 'Author',
       quote:
-        'Fingerstache umami squid, kinfolk subway tile selvage tumblr man braid viral kombucha gentrify fanny pack raclette pok pok mustache.',
+        'They helped me throughout the entire process from patenting to publishing my work. Extremely professional and organized',
     },
     {
       id: 2,
       image:
-        'https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883417/person-3_ipa0mj.jpg',
-      name: 'john doe',
-      title: 'regular guy',
+        'https://www.svgrepo.com/show/384674/account-avatar-profile-user-11.svg',
+      name: 'client',
+      title: 'Owner of a food chain',
       quote:
-        'Gastropub sustainable tousled prism occupy. Viral XOXO roof party brunch actually, chambray listicle microdosing put a bird on it paleo subway tile squid umami.',
+        'I approached Digiworld creative for creating a website application for my food chain. I was completely satisfied with the end result and would highly recommend',
     },
     {
       id: 3,
       image:
-        'https://res.cloudinary.com/diqqf3eq2/image/upload/v1595959121/person-1_aufeoq.jpg',
-      name: 'peter smith',
-      title: 'product designer',
+        'https://www.svgrepo.com/show/384674/account-avatar-profile-user-11.svg',
+      name: 'client',
+      title: 'Associate Lawyer',
       quote:
-        'Drinking vinegar polaroid street art echo park, actually semiotics next level butcher master cleanse hammock flexitarian ethical paleo.',
-    },
-    {
-      id: 4,
-      image:
-        'https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883334/person-1_rfzshl.jpg',
-      name: 'susan andersen',
-      title: 'the boss',
-      quote:
-        'Marfa af yr 3 wolf moon kogi, readymade distillery asymmetrical seitan kale chips fingerstache cloud bread mustache twee messenger bag. ',
+        'Digiworld creative helped me with my startup by creating an application for us. They are continuing to support our business till date. It was a pleasure doing business with them.',
     },
   ];
   

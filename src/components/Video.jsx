@@ -19,6 +19,7 @@ const Video = () => {
    <ReactPlayer url='https://www.youtube.com/watch?v=VPK4TnujDy4' height={410} />
    </div>
     <div className='mt-[20px] lg:mt-[0px] flex flex-col space-y-[10px]'>
+      <div className="py-[20px] md:py-[0px]">
     <div className="flex flex-col p-[20px] bg-white rounded-md shadow-lg md:ml-[60px]">
 
 <div className="justify-center flex  items-center">
@@ -31,6 +32,7 @@ const Video = () => {
 <div className="text-[15px] font-medium flex text-left justify-start mt-[5px]" style={{lineHeight:1.7}}>
   Professionally translate your work <br/> in more than 65 language<br/> combinations.
 </div> 
+</div>
 </div>
 
 <div className="flex flex-col p-[20px] bg-white rounded-md shadow-lg md:ml-[60px]">

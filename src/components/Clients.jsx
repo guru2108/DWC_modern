@@ -51,7 +51,7 @@ const images=[{
 }]
 const Clients = () => {
   return (
-    <div className="mt-[80px] w-screen"> 
+    <div className="mt-[80px] w-screen" id="portfolio"> 
     <h2 className="flex items-center text-center justify-center text-[14px] text-[#EA3A60]"
     style={{letterSpacing:"2px"}}>WHO DO WE WORK WITH</h2>
     <h1 className="text-[20px] mt-[10px] md:text-[32px] lg:text-[36px] flex items-center text-center justify-center"

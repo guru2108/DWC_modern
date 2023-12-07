@@ -56,7 +56,7 @@ const Reviews = () => {
               <p className="title">{title}</p>
               <p className="text">{quote}</p>
               <div className="flex items-center justify-center text-center">
-              <FaQuoteRight className="icon text-purple-700" />
+              <FaQuoteRight className="icon text-[#EA3A60]" />
               </div>
             </article>
           );

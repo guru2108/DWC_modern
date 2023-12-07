@@ -7,4 +7,6 @@ import Video from "./Video";
 import Publications from "./Publications";
 import Team from './Team'
 import MailSub from "./MailSub";
-export{Navbar,Banner,Services,Clients,Reviews,Video,Publications,Team, MailSub}
+import LibrarySub from "./LibrarySub";
+import Footer from "./Footer";
+export{Navbar,Banner,Services,Clients,Reviews,Video,Publications,Team, MailSub,LibrarySub,Footer}

@@ -5,7 +5,7 @@ import { FaBookOpen } from "react-icons/fa";
 import { TbBusinessplan } from "react-icons/tb";
 const Services = () => {
   return (
-    <div className="mt-[80px] w-screen"> 
+    <div className="mt-[80px] w-screen" id="services"> 
         <h2 className="flex items-center text-center justify-center text-[14px] text-[#EA3A60]"
         style={{letterSpacing:"2px"}}>WHATS THE FUNCTION</h2>
         <h1 className="text-[20px] mt-[10px] md:text-[32px] lg:text-[36px] flex items-center text-center justify-center"

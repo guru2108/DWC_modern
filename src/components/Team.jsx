@@ -10,7 +10,7 @@ import { Carousel } from 'react-responsive-carousel';
 const Team = () => {
   return (
     <>
-    <div className="mt-[80px] w-screen"> 
+    <div className="mt-[80px] w-screen" id="aboutus"> 
     <h2 className="flex items-center text-center justify-center text-[14px] text-[#EA3A60]"
     style={{letterSpacing:"2px"}}>WHO WE ARE</h2>
     <h1 className="text-[20px] mt-[10px] md:text-[32px] lg:text-[36px] flex items-center text-center justify-center"

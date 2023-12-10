@@ -15,7 +15,7 @@ const people = [
       name: 'client',
       title: 'Owner of a food chain',
       quote:
-        'I approached Digiworld creative for creating a website application for my food chain. I was completely satisfied with the end result and would highly recommend',
+        'I approached Digiworld creative for creating an ecommerce application for my food chain. I was completely satisfied with the end result',
     },
     {
       id: 3,
@@ -24,7 +24,7 @@ const people = [
       name: 'client',
       title: 'Associate Lawyer',
       quote:
-        'Digiworld creative helped me with my startup by creating an application for us. They are continuing to support our business till date. It was a pleasure doing business with them.',
+        'Digiworld creative helped me with my startup by creating an application for us. They are continuing to support our business till date.',
     },
   ];
   

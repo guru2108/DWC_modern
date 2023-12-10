@@ -55,7 +55,7 @@ const Reviews = () => {
               <h4 className="text-[#EA3A60]">{name}</h4>
               <p className="title">{title}</p>
               <p className="text">{quote}</p>
-              <div className="flex items-center justify-center text-center">
+              <div className="flex items-center justify-center text-center overflow-visible">
               <FaQuoteRight className="icon text-[#EA3A60]" />
               </div>
             </article>

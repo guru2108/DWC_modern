@@ -15,7 +15,7 @@ const LibrarySub = () => {
    },{
     id:2,
     name:"Gold",
-    for:"For small teams or office",
+    for:"For enterprise business",
     contents:[
         "✅ 10 books for publishing",
         "✅ Blog support tools",
@@ -26,7 +26,7 @@ const LibrarySub = () => {
    },{
     id:3,
     name:"Diamond",
-    for:"For small teams or office",
+    for:"For pro level publishers",
     contents:[
         "✅ 20 books for publishing",
         "✅ Blog support tools",

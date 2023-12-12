@@ -48,7 +48,7 @@ const Services = () => {
 
 <div className="justify-center flex lg:justify-start items-center">
 <div className="rounded-xl shadow-xl w-[70px] h-[70px] items-center text-center flex justify-center text-white bg-[#e537eb] ">
-        <FaBookOpen size={65}/>
+        <FaBookOpen size={62}/>
 </div>
 </div>
 

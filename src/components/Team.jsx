@@ -4,6 +4,9 @@ import { SocialIcon } from 'react-social-icons'
 import achievement1 from './../assets/achievements/achievements1.jpeg'
 import achievement2 from './../assets/achievements/achievements2.jpeg'
 import achievement3 from './../assets/achievements/achievements3.jpeg'
+import achievement5 from './../assets/achievements/achievements5.jpeg'
+import achievement6 from './../assets/achievements/achievements6.jpeg'
+import achievement7 from './../assets/achievements/achievements7.jpeg'
 import ISO from './../assets/ISO.41f6c0d6.png'
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
@@ -44,6 +47,14 @@ const Team = () => {
                 </div>
                 <div className="">
                     <img src={achievement1} />
+                    
+                </div>
+                <div>
+                    <img src={achievement5} className='flex max-h-[450px]' />
+                   
+                </div>
+                <div>
+                    <img src={achievement6} className=" flex max-h-[450px]" />
                     
                 </div>
             </Carousel>

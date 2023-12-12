@@ -4,10 +4,10 @@ import MobileNavbar from './MobileNavbar';
 const Navbar = () => {
   return (
     <>
-    <div className='lg:hidden'>
+    <nav className='lg:hidden'>
      <MobileNavbar/>
-    </div>
-    <div className="hidden lg:flex px-[300px] pt-[10px] justify-between w-screen scroll-smooth">
+    </nav>
+    <nav className="hidden lg:flex px-[300px] pt-[10px] justify-between w-screen scroll-smooth">
         {/* {image section} */}
         <div className="flex">
             <img src={Logo} alt="Digiworld Creative" className='h-[100px]'/>
@@ -30,7 +30,7 @@ const Navbar = () => {
         </button>
         </a>
       </div>
-    </div>
+    </nav>
     </>
   )
 }

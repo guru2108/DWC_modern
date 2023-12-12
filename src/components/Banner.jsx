@@ -4,10 +4,10 @@ const Banner = () => {
   return (
     <div className="">
     <div className="flex flex-col items-center text-center justify-center md:min-h-[90vh] mt-[30px]">
-       <h1 className="text-[35px] md:text-[50px] lg:text-[66px] font-semibold mb-[25px] leading-tight">
+       <h2 className="text-[35px] md:text-[50px] lg:text-[66px] font-semibold mb-[25px] leading-tight">
            All your technology <br/>
            solution in one place
-       </h1>
+       </h2>
        <h3 className="text-[16px] md:text-[20px] lg:text-[30px] font-normal leading-snug">
         Get your IT solutions devised by experts following great principles
        </h3>

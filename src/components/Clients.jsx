@@ -63,7 +63,7 @@ const Clients = () => {
            {
             images.map((image)=>{
                 return(
-                    <div key={image.img}>
+                    <div>
                         <img src={image.img} className='flex max-h-[150px] p-3 bg-transparent items-center'/>
                     </div>
                 )

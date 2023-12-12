@@ -3,6 +3,7 @@ import ReactPlayer from 'react-player'
 import { FaLanguage } from "react-icons/fa";
 
 import { DiTerminalBadge } from "react-icons/di";
+import service4 from './../assets/page 4.pdf'
 const Video = () => {
   return (
     <div className="mt-[80px] w-screen"> 
@@ -28,7 +29,9 @@ const Video = () => {
   </div>
 </div>
 
-<div className="flex text-center justify-center mt-[5px] text-[18px] font-bold text-[#0F2137]">Translation service</div>
+<a href={service4}>
+<h1 className="flex text-center justify-center mt-[5px] text-[18px] font-bold text-[#0F2137]">Translation service</h1>
+</a>
 <div className="text-[15px] font-medium flex text-left justify-start mt-[5px]" style={{lineHeight:1.7}}>
   Professionally translate your work <br/> in more than 65 language<br/> combinations.
 </div> 
@@ -43,7 +46,7 @@ const Video = () => {
   </div>
 </div>
 
-<div className="flex text-center justify-center mt-[5px] text-[18px] font-bold text-[#0F2137]">Automation service</div>
+<h1 className="flex text-center justify-center mt-[5px] text-[18px] font-bold text-[#0F2137]">Automation service</h1>
 <div className="text-[15px] font-medium flex text-left justify-start mt-[5px]" style={{lineHeight:1.7}}>
   Automate the workflow of<br/> your software with our Devops<br/>Engineers.
 </div> 

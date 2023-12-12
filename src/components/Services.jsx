@@ -15,7 +15,7 @@ const Services = () => {
         style={{letterSpacing:"0.5px"}}>Here are the services we offer</h1>
         <div className='flex items-center text-center justify-center'>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mt-[60px]">
-             {/* service1 */}
+             {/* service1 .3*/}
              <div className="flex flex-col p-[40px]">
 
              <div className="justify-center flex lg:justify-start items-center">

@@ -1,9 +1,10 @@
 import React from 'react'
 import ReactPlayer from 'react-player'
 import { FaLanguage } from "react-icons/fa";
-
+import { FaExternalLinkAlt } from "react-icons/fa";
 import { DiTerminalBadge } from "react-icons/di";
 import service4 from './../assets/page 4.pdf'
+import service6 from './../assets/page 6.pdf'
 const Video = () => {
   return (
     <div className="mt-[80px] w-screen"> 
@@ -29,8 +30,9 @@ const Video = () => {
   </div>
 </div>
 
-<a href={service4}>
-<h1 className="flex text-center justify-center mt-[5px] text-[18px] font-bold text-[#0F2137]">Translation service</h1>
+<a href={service4} target="_blank" className='flex items-center text-center hover:text-[#EA3A60]'>
+<h1 className="flex text-center justify-center mt-[15px] text-[18px] font-bold">Translation service</h1>
+<FaExternalLinkAlt size={18} className="mt-[15px] ml-[3px]"/>
 </a>
 <div className="text-[15px] font-medium flex text-left justify-start mt-[5px]" style={{lineHeight:1.7}}>
   Professionally translate your work <br/> in more than 65 language<br/> combinations.
@@ -45,8 +47,10 @@ const Video = () => {
   <DiTerminalBadge size={60}/>
   </div>
 </div>
-
-<h1 className="flex text-center justify-center mt-[5px] text-[18px] font-bold text-[#0F2137]">Automation service</h1>
+<a href={service6} target="_blank" className='flex items-center text-center hover:text-[#EA3A60]'>
+<h1 className="flex text-center justify-center mt-[15px] text-[18px] font-bold">Automation service</h1>
+<FaExternalLinkAlt size={18} className="mt-[15px] ml-[3px]"/>
+</a>
 <div className="text-[15px] font-medium flex text-left justify-start mt-[5px]" style={{lineHeight:1.7}}>
   Automate the workflow of<br/> your software with our Devops<br/>Engineers.
 </div> 

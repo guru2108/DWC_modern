@@ -3,9 +3,11 @@ import { VscTerminalUbuntu } from "react-icons/vsc";
 import { MdOutlineSecurity } from "react-icons/md";
 import { FaBookOpen } from "react-icons/fa";
 import { TbBusinessplan } from "react-icons/tb";
+import { FaExternalLinkAlt } from "react-icons/fa";
 import service1 from './../assets/Page 1.pdf';
 import service2 from './../assets/Page 2.pdf'
 import service3 from './../assets/Page 3.pdf'
+import service5 from './../assets/Page 5.pdf'
 const Services = () => {
   return (
     <div className="mt-[80px] w-screen" id="services"> 
@@ -24,7 +26,8 @@ const Services = () => {
                </div>
              </div>
 
-             <a href={service1} target='_blank'><h1 className="flex text-left justify-start mt-[15px] text-[18px] font-bold text-[#0F2137] ">Software Development</h1></a>
+             <a href={service1} target='_blank' className='flex items-center text-center hover:text-[#EA3A60]'><h1 className="flex text-left mt-[15px] text-[18px] font-bold ">Software Development</h1>
+              <FaExternalLinkAlt size={18} className="mt-[15px] ml-[3px]"/></a>
              <div className="text-[15px] font-medium flex text-left justify-start mt-[15px]" style={{lineHeight:1.9}}>
                Get your software built in your desired <br/> way by the experts in the tech <br/> industry.
              </div> 
@@ -38,7 +41,8 @@ const Services = () => {
             </div>
             </div>
 
-         <a href={service2} target='_blank'><h1 className="flex text-left justify-start mt-[15px] text-[18px] font-bold text-[#0F2137]">Cyber Security</h1></a>
+         <a href={service2} target='_blank' className='flex items-center text-center hover:text-[#EA3A60]'><h1 className="flex text-left justify-start mt-[15px] text-[18px] font-bold">Cyber Security</h1>
+         <FaExternalLinkAlt size={18} className="mt-[15px] ml-[3px]"/> </a>
          <div className="text-[15px] font-medium flex text-left justify-start mt-[15px]" style={{lineHeight:1.9}}>
           Secure your digital realm with our expert <br/>crafted cybersecurity solutions<br/> and technologies
         </div>
@@ -52,7 +56,8 @@ const Services = () => {
 </div>
 </div>
 
-<a href={service3} target="_blank"><h1 className="flex text-left justify-start mt-[15px] text-[18px] font-bold text-[#0F2137]">Publishing Service</h1></a>
+<a href={service3} target="_blank" className='flex items-center text-center hover:text-[#EA3A60]'><h1 className="flex text-left justify-start mt-[15px] text-[18px] font-bold">Publishing Service</h1>
+<FaExternalLinkAlt size={18} className="mt-[15px] ml-[3px]"/></a>
 <div className="text-[15px] font-medium flex text-left justify-start mt-[15px]" style={{lineHeight:1.9}}>
  Need help with publishing your work ?<br/>Don't worry we have got<br/> you covered.
 </div>
@@ -68,7 +73,8 @@ const Services = () => {
 </div>
 </div>
 
-<h1 className="flex text-left justify-start mt-[15px] text-[18px] font-bold text-[#0F2137]">Market Research</h1>
+<a href={service5} target="_blank" className='flex items-center text-center hover:text-[#EA3A60]'><h1 className="flex text-left justify-start mt-[15px] text-[18px] font-bold">Market Research</h1>
+<FaExternalLinkAlt size={18} className="mt-[15px] ml-[3px]"/></a>
 <div className="text-[15px] font-medium flex text-left justify-start mt-[15px]" style={{lineHeight:1.9}}>
  Hard time understanding the market?<br/> get guidance from our expert<br/>business analysts.
 </div>

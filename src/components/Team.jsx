@@ -51,11 +51,6 @@ const Team = () => {
                 </div>
                 <div>
                     <img src={achievement5} className='flex max-h-[450px]' />
-                   
-                </div>
-                <div>
-                    <img src={achievement6} className=" flex max-h-[450px]" />
-                    
                 </div>
             </Carousel>
                </div>

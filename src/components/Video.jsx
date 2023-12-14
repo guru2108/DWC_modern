@@ -4,7 +4,7 @@ import { FaLanguage } from "react-icons/fa";
 import { FaExternalLinkAlt } from "react-icons/fa";
 import { DiTerminalBadge } from "react-icons/di";
 import service4 from './../assets/page 4.pdf'
-import service6 from './../assets/page 6.pdf'
+import service6 from './../assets/Page 6.pdf'
 const Video = () => {
   return (
     <div className="mt-[80px] w-screen"> 
